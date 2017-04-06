@@ -6,7 +6,7 @@ setup (
         py_modules      = ['H5toImage'],
         author              = 'Yangyangii',
         author_email     = 'yjh2067@gmail.com',
-        url                    = 'http://yangyangii.github.io/',
+        url                    = 'https://github.com/Yangyangii/HDFconvert',
         description        = 'To convert HDF format to other format files',
         install_requires = ['h5py'],
     )
