@@ -8,5 +8,5 @@ setup (
         author_email     = 'yjh2067@gmail.com',
         url                    = 'http://yangyangii.github.io/',
         description        = 'To convert HDF format to other format files',
-        install_requires = ['PIL', 'h5py'],
+        install_requires = ['h5py'],
     )
