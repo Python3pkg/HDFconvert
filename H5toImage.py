@@ -35,7 +35,7 @@ def makeDataset(load_path, save_path, target):
     for idx, cur_file in enumerate(file_list):
         cur_status = (float(idx) / len(file_list)) * 100
         cur_num = int(cur_status // 10)
-        H5toImage(load_path, save_path, cur_file)
+        h5toImage(load_path, save_path, cur_file)
         sys.stdout.write(str('\r' +
                   '■'*cur_num + '□'*(10-cur_num) + 
                   ' {:03.2f}'.format(cur_status) + '% Current File: ' + cur_file)
