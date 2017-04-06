@@ -9,6 +9,7 @@ Currently, only this function is supported.
     
 You may use it as follows:
 
+<code>pip install h5py</code>
 
 <code>pip install HDFconvert</code>
 

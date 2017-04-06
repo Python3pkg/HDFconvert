@@ -8,5 +8,4 @@ setup (
         author_email     = 'yjh2067@gmail.com',
         url                    = 'https://github.com/Yangyangii/HDFconvert',
         description        = 'To convert HDF format to other format files',
-        install_requires = ['h5py'],
     )
