@@ -46,6 +46,6 @@ def test():
     print("This library is H5toImage.")
 
 if __name__ == "__main__":
-    load_path, save_path = sys.argv[1], sys.argv[2], sys.argv[3]
-    MakeDataset(load_path, save_path, target)
+    load_path, save_path, target = sys.argv[1], sys.argv[2], sys.argv[3]
+    makeDataset(load_path, save_path, target)
 
